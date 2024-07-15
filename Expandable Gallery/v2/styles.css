@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    
+    gap: 1rem;
+    width: 35rem;
+}
+
+.card {
+    position: relative;
+    left: 0px;
+    width: 3rem;
+    border-radius: 5rem;
+
+    height: 20rem;
+    overflow: hidden;
+    background-color: var(--background);
+    transition: 0.4s ease-in-out;
+    
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    flex: 0.15;
+}
+
+.card img {
+    position: relative;
+    height: 20rem;
+    object-fit: cover;
+   
+}
+
+.card:hover {
+    flex: 1 1 0;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}

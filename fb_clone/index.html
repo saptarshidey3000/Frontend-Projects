@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex justify-center items-center">
+    <div class="container flex flex-col md:flex-row items-center w-2/3 
+     justify-center">
+    <div class="left mx-14">
+        <img src="./logo.png" class="w-60" alt="">
+        <h1 class="mx-6 text-3xl">Recent Logins</h1>
+        <p class="text-sm text-gray-400 mx-6">
+            Click your picure or add an account
+        </p>
+    </div>
+    <div class="w-2/4">
+        <form action="#" class="right flex flex-col w-full bg-white rounded-lg p-8 shadow-lg">
+            <input type="text" class="px-4 h-12 my-2 border border-gray-200 border-1 rounded-lg" placeholder="Email adress or Phone number">
+            <input type="password" class="px-4 h-12 my-2 border border-gray-200 border-1 rounded-lg" placeholder="Password">
+            <input type="password" class="px-4 h-12 my-2 border border-gray-200 border-1 rounded-lg" placeholder="Confirm Password">
+
+            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white my-2 py-3 rounded-lg transition-all font-bold">Login</button>
+            <span class="text-blue-600 text-center hover:underline my-2 cursor-pointer">
+                Forgot password?
+            </span>       
+            <hr class="my-1">
+            <a class="bg-green-600 text-white my-2 py-3 rounded-lg font-bold hover:bg-green-700 px-4 mx-auto transition-all cursor-pointer">Create New Account</a>
+        </form>
+        <div class="text-center w-full my-5 text-sm">
+            <a href="#" class="underline">Create a Page</a>
+            for a celebrity, brand or business
+        </div>
+    </div>
+    </div>
+</body>
+</html>
