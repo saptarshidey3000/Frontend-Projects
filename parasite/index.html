@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parsyte The Grey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="banner">
+    <header>
+      <nav class="navbar">
+        <a href="#"><img src="images/logo.png" alt="" /></a>
+        <div class="hamburger">
+          <div class="line line-one"></div>
+          <div class="line line-two"></div>
+          <div class="line line-three"></div>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="#" target="_link">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="content">
+      <div>
+        <div id="title">
+          <img src="images/title.png" alt="" />
+        </div>
+        <p>
+          Are you ready for a terrifying twist on survival?  Then enter the world of "Parasyte: The Grey," the gripping new sci-fi horror series from Netflix. This Korean live-action adaptation follows the chilling story of a parasitic alien invasion
+        </p>
+      </div>
+      <div class="images">
+        <div class="container">
+          <div class="img-card">
+            <img src="images/trailer1.jpg" alt="" />
+          </div>
+          <div class="img-card">
+            <img src="images/trailer2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+    <!-- Javascript -->
+    <script>
+      const menu = document.querySelector(".hamburger");
+      const navigation = document.querySelector(".navigation");
+      menu.addEventListener("click", function () {
+        menu.classList.toggle("active");
+        navigation.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
